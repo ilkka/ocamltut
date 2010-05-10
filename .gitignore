@@ -6,3 +6,6 @@
 *.o
 *.opt
 .*.swp
+.lock-wscript
+.waf-*
+build
