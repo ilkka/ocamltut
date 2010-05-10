@@ -1,0 +1,6 @@
+OCAMLFLAGS += -w A
+NATIVE_ENABLED = true
+BYTE_ENABLED = true
+OCamlProgram(echo, echo)
+.DEFAULT: echo$(EXE)
+
